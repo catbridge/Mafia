@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Mafia</string>
+    <string name="mafia">Mafia</string>
+    <string name="play">Play</string>
+    <string name="select_player_count">Select number</string>
+    <string name="players_number">Number of players:</string>
+    <string name="enter_players_number">Enter a number of players</string>
+    <string name="next_player">Next Player</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="finish_the_game">Finish The Game</string>
+    <string name="attention">Attention, city!</string>
+    <string name="dialog_txt">Please, give the phone to the leader. Leader, press "OK".</string>
+    <string name="delete_player">delete player</string>
+    <string name="place_for_notes">Place for notes</string>
+    <string name="warning_enter_name">You should enter your name</string>
+    <string name="start">START GAME</string>
+    <string name="warning_need_more_players">You should have more than 5 players to play</string>
+    <string name="change_localization">Change Localization</string>
+
+</resources>

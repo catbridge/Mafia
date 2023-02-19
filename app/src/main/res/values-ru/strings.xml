@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Мафия</string>
+    <string name="mafia">Мафия</string>
+    <string name="play">Играть</string>
+    <string name="select_player_count">Выбирете количество</string>
+    <string name="players_number">Количество игроков:</string>
+    <string name="enter_players_number">Введите количество игроков</string>
+    <string name="next_player">Следующий игрок</string>
+    <string name="enter_your_name">Введите свое имя</string>
+    <string name="finish_the_game">Завершить игру</string>
+    <string name="attention">Внимание, город!</string>
+    <string name="dialog_txt">Пожалуйста, отдайте телефон ведущему. Ведущий, нажмите "ОК"</string>
+    <string name="delete_player">Удалить игрока</string>
+    <string name="place_for_notes">Место для заметок</string>
+    <string name="warning_enter_name">Вы должны ввести свое имя</string>
+    <string name="start">Начать игру</string>
+    <string name="warning_need_more_players">Чтобы начать игру, нужно более 5 игоков</string>
+    <string name="change_localization">Сменить язык</string>
+
+</resources>

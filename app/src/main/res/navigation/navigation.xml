@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.example.mafia.fragment.HomeFragment"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_add_players"
+            app:destination="@id/add_players"
+            app:enterAnim="@anim/to_left"
+            app:exitAnim="@anim/from_right"
+            app:popEnterAnim="@anim/to_right"
+            app:popExitAnim="@anim/from_left"/>
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/add_players"
+        android:name="com.example.mafia.fragment.AddPlayersFragment"
+        tools:layout="@layout/fragment_add_players">
+        <action
+            android:id="@+id/action_add_players_to_notes"
+            app:destination="@id/notes"
+            app:enterAnim="@anim/to_left"
+            app:exitAnim="@anim/from_right"
+            app:popEnterAnim="@anim/to_right"
+            app:popExitAnim="@anim/from_left"/>
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/notes"
+        android:name="com.example.mafia.fragment.NotesFragment"
+        tools:layout="@layout/fragment_notes">
+        <action
+            android:id="@+id/action_notes_to_home"
+            app:destination="@id/home"
+            app:enterAnim="@anim/to_left"
+            app:exitAnim="@anim/from_right"
+            app:popEnterAnim="@anim/to_right"
+            app:popExitAnim="@anim/from_left"/>
+    </fragment>
+
+
+
+</navigation>

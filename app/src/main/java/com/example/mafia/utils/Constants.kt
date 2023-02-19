@@ -1,0 +1,22 @@
+package com.example.mafia.utils
+
+object Constants {
+    const val MAFIA = "Мафия"
+    const val CIVIL = "Мирный"
+    const val POLICE = "Комиссар"
+    const val DON = "Дон"
+    const val LEADER = "Ведущий"
+    const val PROSTITUTE = "Проститутка"
+    const val DOCTOR = "Доктор"
+    const val ERROR = "Something went wrong"
+
+    val SIX_PLAYERS = listOf(MAFIA, CIVIL, CIVIL, CIVIL, CIVIL, LEADER)
+    val SEVEN_PLAYERS = listOf(MAFIA, POLICE, MAFIA, CIVIL, CIVIL, CIVIL, LEADER)
+    val EIGHT_PLAYERS = listOf(MAFIA, POLICE, DOCTOR, PROSTITUTE, MAFIA, CIVIL, CIVIL, LEADER)
+    val NINE_PLAYERS = listOf(MAFIA, POLICE, DOCTOR, PROSTITUTE, MAFIA, CIVIL, CIVIL, CIVIL, LEADER)
+    val TEN_PLAYERS = listOf(MAFIA, POLICE, DOCTOR, PROSTITUTE, MAFIA, CIVIL, CIVIL, CIVIL, MAFIA, LEADER)
+    val ELEVEN_PLAYERS = listOf(MAFIA, POLICE, DOCTOR, PROSTITUTE, MAFIA, CIVIL, CIVIL, CIVIL, CIVIL, MAFIA, LEADER)
+    val TWELVE_PLAYERS = listOf(MAFIA, POLICE, DOCTOR, PROSTITUTE, MAFIA, CIVIL, CIVIL, CIVIL, CIVIL, CIVIL, MAFIA, LEADER)
+    val THIRTEEN_PLAYERS = listOf(MAFIA, POLICE, DOCTOR, PROSTITUTE, MAFIA, CIVIL, CIVIL, CIVIL, CIVIL, CIVIL, DON, MAFIA, LEADER)
+    val ERROR_MESSAGE = listOf(ERROR)
+}
